@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  discountedPrice: number;
   title = 'price-calc-angular';
+
+  onClick(price, discount){
+    this.discountedPrice = price - (price*(discount/100));
+  }
 }

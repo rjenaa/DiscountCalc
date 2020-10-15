@@ -1,0 +1,12 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+ .card {
+    margin-left: 33%;
+    border-style: solid;
+    margin-right: 33%;
+    margin-top: 35px;
+    background-color: aqua;
+    
+} 
+button{
+    margin: 2px;
+}
